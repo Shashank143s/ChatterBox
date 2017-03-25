@@ -1,0 +1,237 @@
+#postImg{
+	width:60px;
+	height:60px;	
+}
+
+.navbar-inverse
+.navbar-brand:hover{
+	color:yellow;
+}
+.navbar-inverse
+.navbar-nav > li > a:hover{
+	color:yellow;
+}
+
+h4{
+	font-size:17px;
+}
+
+#post-query-icon{
+	padding-right:10px;
+	font-size:16px;
+}
+
+#first-module{
+	padding-left:100px;
+}
+
+
+#postQuery{
+	padding-top:70px;
+}
+
+#select-module{
+	padding-top:20px;
+}
+
+#queryDesc, #queryQuestn{
+	padding-top:20px;
+}
+
+#moduleQuestn{
+	display:inline;
+	padding-left:0px;
+}
+
+#moduleImg{
+	height:40px;
+	width:60px;
+}
+
+#copyright-icon{
+	font-size:30px;
+	//padding:10px;
+	color:#9d9d9d;
+}
+
+#ideaImg{
+	height:250px;
+	width:255px;
+	
+}
+
+#createdBy{
+	font-size:13px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+#shareIdeabg{
+	background-color:#C8D7DC;
+}
+
+#ideaHeader{
+	display:inline;
+}
+
+#ideaMImg{
+	height:40px;
+	width:40px;
+}
+
+.footer {
+    background-color: #333;
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.queryBox {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-width: 1px 1px 1px 0.25rem;
+    border-style: solid;
+    border-color: #EEE;
+	border-left-color: #F0AD4E;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0.25rem;
+}
+
+.ideaBox {
+    padding: 3px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-width: 0.25rem 1px 1px 1px;
+    border-style: solid;
+    border-color: #EEE;
+	border-top-color: #F0AD4E;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0.25rem;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border:1px solid lightGrey;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+	background-image:url("../images/search.png");
+	background-size:20px;
+	background-repeat:no-repeat;
+	background-position-x:95%;
+	background-position-y:50%;
+	padding:7px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+		
+}
+
+input[type=text]:focus {
+    width: 430px;
+	margin-left:-30%;
+	border:1px solid #66bfff;	
+	-webkit-transition: margin-left 0.3s ease-in-out;
+    transition: margin-left 0.3s ease-in-out;
+	
+}
+input[type=text]:hover{
+	border:1px solid #66bfff;
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+	transition: box-shadow 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#search_navbar{
+	margin-left:26%;
+	padding:11px;
+}
+.fa-search{
+	font-size: 18px;
+	padding: 10px;
+}
+
+#make_post{
+		padding:10px;
+}
+
+#CBLogo{
+	height:40px;
+	width:200px;
+}
+
+.postQ{
+	background-color:#66bfff;
+	//border-color: #005999;
+	color:white;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.postQ:hover, .postQ.active{
+	background-color:#66bfff;
+	color:white;	
+}
+
+.fltrbtn{
+	border:1px solid #F0AD4E;
+	
+}
+
+.fltrbtn:hover{
+	background-color:#f9f9f9;
+	color:black;
+
+}
+.replyBox{
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-width: 1px 0.25rem 1px 1px ;
+    border-style: solid;
+    border-color: #EEE;
+    border-right-color: #F0AD4E;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0.25rem;
+}
+
+.ideaBox {
+    padding: 3px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-width: 0.25rem 1px 1px 1px;
+    border-style: solid;
+    border-color: #EEE;
+	border-top-color: #F0AD4E;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0.25rem;
+}
+#postQuestn{
+	display:inline;
+	padding-left:20px;
+	font-size:20px;
+}
+#postDesc{
+	padding-left:84px;
+	font-size:16px;
+}
+.queryBox:hover{
+	cursor:pointer;
+}
